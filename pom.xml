@@ -49,5 +49,12 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+</build>
+<distributionManagement>
+  <repository>
+    <id>omkar-repo</id>
+    <name>omkar-repo</name>
+<url>http://34.93.220.204:8081/nexus/content/repositories/omkar-repo</url>
+  </repository>
+</distributionManagement>
 </project>
